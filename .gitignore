@@ -143,7 +143,6 @@ dist
 
 ### Vuejs ###
 # Recommended template: Node.gitignore
-.vitepress
 
 dist/
 npm-debug.log
