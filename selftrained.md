@@ -1,13 +1,15 @@
 ---
 title: Selftrained
-description: Visual Comparison of Multiple Models
+description: Visual Comparison of Multiple Self trained or interpolated Models
 layout: doc
 outline: [2, 4]
 ---
 
 <script setup lang="ts">
   import imageCompare from "vue-image-compare2";
-//import ImageSlider from './imageslider.vue' // the vue image slider example comparison component
+  import ImageSlider from './imageslider.vue' // the vue image slider example comparison component
+  import cutoutfiles from './filelists/selftrained/cutout.json'
+    import cutoutfiles_selection from './filelists/selftrained/cutout_selection.json'
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -30,47 +32,35 @@ const forceRerender = () => {
   componentKey.value += 1;
 };
 
-let before = "https://drive.usercontent.google.com/download?id=1cse7S2Uws8T8RNbbjWoznXig4ZN2FoBs"
-let after= "https://drive.usercontent.google.com/download?id=1cse7S2Uws8T8RNbbjWoznXig4ZN2FoBs"
-
-let before1 = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3l2nfzcHhMemSZooiH3B3AHaFj%26pid%3DApi&f=1&ipt=f2a03722e2521a9b47426359ed6e0b9ef5915a050503cd22b43184a0d97a536f&ipo=images"
-let after1 = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3l2nfzcHhMemSZooiH3B3AHaFj%26pid%3DApi&f=1&ipt=f2a03722e2521a9b47426359ed6e0b9ef5915a050503cd22b43184a0d97a536f&ipo=images"
+forceRerender();
 
 </script>
 
+## Self Trained Upscaling Models
 
-## Examples
-
-These examples feature 300+ model ouputs and display all of my generated output from the respective github folder. Bear in mind that some of these models serve a different purpose than upscaling, like for example some 1x denoising models. You find the links to the input image and all the generated outputs in the 'Details' Section beneath each example, in case you wanted to do your own upscaling comparison.
+These examples feature my self trained upscaling models or interpolations I made.
 
 > Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
 
-### Photo
+#### 2dcutout
 
-<br/>
+A 2D Game Art Style example: Cutout art (256x256)
 
-<image-compare :before="before" :after="after"/>
-
-<image-compare :before="before1" :after="after1"/>
-
-#### Buddy
-
-<div id="firstExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://drive.google.com/file/d/1cse7S2Uws8T8RNbbjWoznXig4ZN2FoBs/view?usp=drive_link' relativePathOutputFolder='output/lossless/photos/buddy' />
+<div id="cutout">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles_selection"/>
 </div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('firstExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('cutout')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details>
-  <summary>Details</summary>
+  <summary>Full example (113 outputs)</summary>
   <p>
 
-Input Image: 480x320 pixels
-
-Input Image: [Image](https://drive.google.com/file/d/1cse7S2Uws8T8RNbbjWoznXig4ZN2FoBs/view?usp=drive_link)
-
-Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/buddy)
+<div id="cutout_full">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('cutout_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/>
 
   </p>
-</details>

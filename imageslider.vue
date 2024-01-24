@@ -15,9 +15,8 @@
   </template>
   
   <script setup lang="ts">
-  import { ref, watch, defineProps } from "vue";
+  import { ref, watch } from "vue";
   import imageCompare from "vue-image-compare2";
-  import data from "./data.json";
   
   const falseBoolean:Boolean = false;
   const trueBoolean:Boolean = true;
@@ -25,9 +24,10 @@
   // the props
   const props = defineProps({
     inputImageURL: String,
-    relativePathOutputFolder: String,
-    fileNamesList: [],
-    nondraggable: Boolean
+    fileNamesList: {
+      type: Array,
+      default: () => []
+    }
   });
   
   // the selection options
@@ -50,30 +50,27 @@
   }
   // set zoom options (doesnt make sense to zoom too deep since it will be pixelated just because of image size)
   const zoom = { min: 1, max: 4 };
-  
-  // get relevant files from the data.json object
-  let relevantFiles = data.filter((file) =>
-    file.relativePath.startsWith(props.relativePathOutputFolder + '/') // needed to add '/' because otherwise examplefolder that start the same get overwritten (like 'sao' will get overwritten by the 'sao2' example image files)
-  );
-  
-  if (props.fileNamesList && props.fileNamesList.length >= 1) {
-    relevantFiles = relevantFiles.filter((file) =>
-      props.fileNamesList.includes(file.basename)
-    );
-  }
-  
-  let relativePaths = relevantFiles.map((file) => file.relativePath);
-  let modelNames = relevantFiles.map((file) => file.basename);
+
+
+  let publicUrls = props.fileNamesList ? props.fileNamesList.map((file: any) => file.public_url) : [];
+  let modelNames = props.fileNamesList ? props.fileNamesList.map((file: any) => file.model_name) : [];
+
+  console.log("component")
+  console.log(publicUrls)
+  console.log(modelNames)
   
   options.value = []; // empty options array
   options.value.push({ text: "Input", value: props.inputImageURL }); // push first image as input which is not in the upscale folder but the inputs folder
   // build the options array with the data
-  for (let i = 0; i < relativePaths.length; i++) {
+  for (let i = 0; i < publicUrls.length; i++) {
     let text = modelNames[i];
-    let value = "https://raw.githubusercontent.com/Phhofm/upscale/main/sources/" + relativePaths[i];
+    let value = publicUrls[i];
     let object = { text: text, value: value };
     options.value.push(object);
   }
+
+  console.log("options")
+  console.log(options)
   
   // set image slider comparison images, also this will trigger a component refresh since we have set the forceRenderer on value change
   after.value = options.value[0].value;

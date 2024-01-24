@@ -1,0 +1,454 @@
+[
+    {
+        "public_url": "https://i.slow.pics/D7FJ7T4R.webp",
+        "model_name": "1xDeJPG_OmniSR_OTF_net_g_113000"
+    },
+    {
+        "public_url": "https://i.slow.pics/kx3OKrDl.webp",
+        "model_name": "1xDeJPG_OmniSR_helaman_net_g_82000"
+    },
+    {
+        "public_url": "https://i.slow.pics/zLVIoERl.webp",
+        "model_name": "1xDeJPG_SRFormer_light_otf_net_g_94000"
+    },
+    {
+        "public_url": "https://i.slow.pics/ZMZHfWts.webp",
+        "model_name": "4xFaceUpSharpESRGAN_net_g_80000"
+    },
+    {
+        "public_url": "https://i.slow.pics/1Bg4nnhD.webp",
+        "model_name": "4xFFHQ_2DAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/nqZXYmaR.webp",
+        "model_name": "2xHFA2k_LUDAVE_span"
+    },
+    {
+        "public_url": "https://i.slow.pics/WrKy2mxX.webp",
+        "model_name": "4xLexicaDAT2_hb"
+    },
+    {
+        "public_url": "https://i.slow.pics/6L2lcZ5o.webp",
+        "model_name": "4xCompactNoiseJPG80Multiscale"
+    },
+    {
+        "public_url": "https://i.slow.pics/Yct3Gz28.webp",
+        "model_name": "4xLexicaDAT2_net_g_62500"
+    },
+    {
+        "public_url": "https://i.slow.pics/I6CnNG4R.webp",
+        "model_name": "4xLexicaBoxNoise2"
+    },
+    {
+        "public_url": "https://i.slow.pics/Fvlhsaep.webp",
+        "model_name": "4xLexicaCompactBox"
+    },
+    {
+        "public_url": "https://i.slow.pics/1sERtygN.webp",
+        "model_name": "4xLexicaCompactBlurJPG80Multidown"
+    },
+    {
+        "public_url": "https://i.slow.pics/09RGEuG5.webp",
+        "model_name": "4xLexicaCompactBoxBlur"
+    },
+    {
+        "public_url": "https://i.slow.pics/ocoZGh3F.webp",
+        "model_name": "4xLexicaCompactBoxBlur2"
+    },
+    {
+        "public_url": "https://i.slow.pics/aUUPmDxI.webp",
+        "model_name": "4xLexicaCompactBoxNoise"
+    },
+    {
+        "public_url": "https://i.slow.pics/ucVX7rIB.webp",
+        "model_name": "4xLexicaCompactBoxJPG80"
+    },
+    {
+        "public_url": "https://i.slow.pics/8ZJ21vXG.webp",
+        "model_name": "4xLexicaCompactBoxNoiseBlur2JPG80"
+    },
+    {
+        "public_url": "https://i.slow.pics/ohw5WG4Z.webp",
+        "model_name": "4xLSDIRHAT-L_net_g_50000"
+    },
+    {
+        "public_url": "https://i.slow.pics/OsDUimdO.webp",
+        "model_name": "4xNomosUniDAT2_boxhb_net_g_80000"
+    },
+    {
+        "public_url": "https://i.slow.pics/MZx5Iyz5.webp",
+        "model_name": "4xNomosUniDAT2_otf_net_g_45000"
+    },
+    {
+        "public_url": "https://i.slow.pics/zKpIJ8uz.webp",
+        "model_name": "2xInt-LD-AnimeJaNai"
+    },
+    {
+        "public_url": "https://i.slow.pics/PjFQHQuD.webp",
+        "model_name": "4xInt-AnimeArt"
+    },
+    {
+        "public_url": "https://i.slow.pics/wUtwGHbJ.webp",
+        "model_name": "4xInt-RemacRestore"
+    },
+    {
+        "public_url": "https://i.slow.pics/UdD25u0A.webp",
+        "model_name": "4xInt-RemAnime"
+    },
+    {
+        "public_url": "https://i.slow.pics/OrouIag7.webp",
+        "model_name": "4xInt-RemArt"
+    },
+    {
+        "public_url": "https://i.slow.pics/s8KZw5X8.webp",
+        "model_name": "4xInt-RemDF2K"
+    },
+    {
+        "public_url": "https://i.slow.pics/F9Tv8dSh.webp",
+        "model_name": "4xInt-Siacri"
+    },
+    {
+        "public_url": "https://i.slow.pics/IGbXTwQG.webp",
+        "model_name": "4xInt-Superscri"
+    },
+    {
+        "public_url": "https://i.slow.pics/kcIHkFkK.webp",
+        "model_name": "2xHFA2kCompact"
+    },
+    {
+        "public_url": "https://i.slow.pics/EappgOTF.webp",
+        "model_name": "2xHFA2k_compact_multijpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/hpWJtIwr.webp",
+        "model_name": "4xInt-Ultracri"
+    },
+    {
+        "public_url": "https://i.slow.pics/CtZ6ztPC.webp",
+        "model_name": "2xHFA2kShallowESRGAN"
+    },
+    {
+        "public_url": "https://i.slow.pics/6W8vUCBA.webp",
+        "model_name": "4xHFA2k"
+    },
+    {
+        "public_url": "https://i.slow.pics/lyx3TOq9.webp",
+        "model_name": "2xHFA2kOmniSR"
+    },
+    {
+        "public_url": "https://i.slow.pics/A0z105us.webp",
+        "model_name": "2xHFA2kReal-CUGAN"
+    },
+    {
+        "public_url": "https://i.slow.pics/Uy5sSrxA.webp",
+        "model_name": "2xHFA2kSPAN_27k"
+    },
+    {
+        "public_url": "https://i.slow.pics/ptnSatP6.webp",
+        "model_name": "2xHFA2kSwinIR-S"
+    },
+    {
+        "public_url": "https://i.slow.pics/kB7WBXii.webp",
+        "model_name": "2xHFA2kCSRFormer_light"
+    },
+    {
+        "public_url": "https://i.slow.pics/BII8cKdu.webp",
+        "model_name": "2xHFA2kAVCCompact"
+    },
+    {
+        "public_url": "https://i.slow.pics/8Pz3XGKD.webp",
+        "model_name": "2xHFA2kAVCOmniSR_Sharp"
+    },
+    {
+        "public_url": "https://i.slow.pics/f2M9l688.webp",
+        "model_name": "2xHFA2kAVCOmniSR"
+    },
+    {
+        "public_url": "https://i.slow.pics/DYbcviET.webp",
+        "model_name": "2xHFA2k_LUDVAE_compact"
+    },
+    {
+        "public_url": "https://i.slow.pics/JwTgCG1Z.webp",
+        "model_name": "4xHFA2kLUDVAEDAT_light"
+    },
+    {
+        "public_url": "https://i.slow.pics/obUH7zLy.webp",
+        "model_name": "2xHFA2k_LUDVAE_SPAN"
+    },
+    {
+        "public_url": "https://i.slow.pics/VXKcRToO.webp",
+        "model_name": "4xHFA2kLUDVAEGRL_small"
+    },
+    {
+        "public_url": "https://i.slow.pics/fgrJqVyy.webp",
+        "model_name": "4xHFA2kLUDVAESRFormer_light"
+    },
+    {
+        "public_url": "https://i.slow.pics/Zxxt7eVV.webp",
+        "model_name": "4xHFA2kLUDVAESwinIR_light"
+    },
+    {
+        "public_url": "https://i.slow.pics/o26N2nNu.webp",
+        "model_name": "1xDeJPG_HAT-L"
+    },
+    {
+        "public_url": "https://i.slow.pics/D2IODgbC.webp",
+        "model_name": "1xDeJPG_OmniSR"
+    },
+    {
+        "public_url": "https://i.slow.pics/VUfEEJCN.webp",
+        "model_name": "1xDeJPG_SRFormer_light"
+    },
+    {
+        "public_url": "https://i.slow.pics/4LxHwvcA.webp",
+        "model_name": "4xFaceUpDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/I3LaDkTJ.webp",
+        "model_name": "4xFaceUpLDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/2PYrTvY8.webp",
+        "model_name": "4xFaceUpSharpDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/rtMZQuh5.webp",
+        "model_name": "4xFaceUpSharpLDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/Ni767hYm.webp",
+        "model_name": "4xFFHA_2DAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/czgh1A23.webp",
+        "model_name": "4xFFHQDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/RTRS3Sxo.webp",
+        "model_name": "4xFFHQDAT_169000"
+    },
+    {
+        "public_url": "https://i.slow.pics/LzYlSjLm.webp",
+        "model_name": "2xParimgCompact"
+    },
+    {
+        "public_url": "https://i.slow.pics/0Z6m9iHk.webp",
+        "model_name": "4xFFHQLDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/f3v5l7iF.webp",
+        "model_name": "4xLSDIRCompact"
+    },
+    {
+        "public_url": "https://i.slow.pics/RC715Lt5.webp",
+        "model_name": "4xLSDIRCompact2"
+    },
+    {
+        "public_url": "https://i.slow.pics/rVnx9bE6.webp",
+        "model_name": "4xLSDIRCompact1"
+    },
+    {
+        "public_url": "https://i.slow.pics/l5Ub8lw1.webp",
+        "model_name": "4xLSDIRCompactC"
+    },
+    {
+        "public_url": "https://i.slow.pics/VIBlTZor.webp",
+        "model_name": "4xLSDIRCompact3"
+    },
+    {
+        "public_url": "https://i.slow.pics/yjJ2uCZ6.webp",
+        "model_name": "4xLSDIRCompactC2"
+    },
+    {
+        "public_url": "https://i.slow.pics/PRU9hcCc.webp",
+        "model_name": "4xLSDIRCompactC1"
+    },
+    {
+        "public_url": "https://i.slow.pics/2uRwy2ZL.webp",
+        "model_name": "4xLSDIRCompactR1"
+    },
+    {
+        "public_url": "https://i.slow.pics/hdgzzfdU.webp",
+        "model_name": "4xLSDIRCompactN3"
+    },
+    {
+        "public_url": "https://i.slow.pics/UFFKBxjA.webp",
+        "model_name": "4xLSDIRCompactC3"
+    },
+    {
+        "public_url": "https://i.slow.pics/xMwaA6Yc.webp",
+        "model_name": "4xLSDIRCompactR3"
+    },
+    {
+        "public_url": "https://i.slow.pics/xI0cmrnF.webp",
+        "model_name": "4xLSDIRCompactR2"
+    },
+    {
+        "public_url": "https://i.slow.pics/3Ded6gha.webp",
+        "model_name": "4xLSDIRDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/uxgVPBoS.webp",
+        "model_name": "4xLSDIR"
+    },
+    {
+        "public_url": "https://i.slow.pics/UeykBp4T.webp",
+        "model_name": "4xLSDIRplus"
+    },
+    {
+        "public_url": "https://i.slow.pics/3PrXtTEB.webp",
+        "model_name": "4xLSDIRplusC"
+    },
+    {
+        "public_url": "https://i.slow.pics/wKQQMMB5.webp",
+        "model_name": "4xLSDIRplusN"
+    },
+    {
+        "public_url": "https://i.slow.pics/6QNgCcDF.webp",
+        "model_name": "4xLSDIRplusR"
+    },
+    {
+        "public_url": "https://i.slow.pics/kuC8vsIG.webp",
+        "model_name": "4xNomos8kDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/t4pALCqQ.webp",
+        "model_name": "4xNomos8kHAT-L_bokeh_jpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/IIqRUmIL.webp",
+        "model_name": "4xNomos8kHAT-L_otf"
+    },
+    {
+        "public_url": "https://i.slow.pics/jQd9gbxM.webp",
+        "model_name": "4xNomos8kSCHAT-L"
+    },
+    {
+        "public_url": "https://i.slow.pics/tOK9nRad.webp",
+        "model_name": "4xNomos8kSCHAT-S"
+    },
+    {
+        "public_url": "https://i.slow.pics/pae7Ages.webp",
+        "model_name": "4xNomos8k_span_otf_medium"
+    },
+    {
+        "public_url": "https://i.slow.pics/U1Sv0tgZ.webp",
+        "model_name": "4xNomos8kSC"
+    },
+    {
+        "public_url": "https://i.slow.pics/pvm0CzIE.webp",
+        "model_name": "4xNomos8k_span_otf_weak"
+    },
+    {
+        "public_url": "https://i.slow.pics/vLOxBtPK.webp",
+        "model_name": "4xNomos8k_span_otf_strong"
+    },
+    {
+        "public_url": "https://i.slow.pics/Oh6Wt9k4.webp",
+        "model_name": "4xNomos8kSCSRFormer"
+    },
+    {
+        "public_url": "https://i.slow.pics/rzOZtau7.webp",
+        "model_name": "4xReal_SSDIR_DAT_GAN"
+    },
+    {
+        "public_url": "https://i.slow.pics/f55NPvxP.webp",
+        "model_name": "4xSSDIRDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/kaiKqhts.webp",
+        "model_name": "2xLexicaRRDBNet"
+    },
+    {
+        "public_url": "https://i.slow.pics/Zjhr6geP.webp",
+        "model_name": "2xLexicaRRDBNet_Sharp"
+    },
+    {
+        "public_url": "https://i.slow.pics/C8GcWje7.webp",
+        "model_name": "2xLexicaSwinIR"
+    },
+    {
+        "public_url": "https://i.slow.pics/o5j4XJv9.webp",
+        "model_name": "4xLexicaDAT2_otf"
+    },
+    {
+        "public_url": "https://i.slow.pics/hmypMXSu.webp",
+        "model_name": "4xLexicaHAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/gFwXwPWt.webp",
+        "model_name": "4xTextureDAT2_otf"
+    },
+    {
+        "public_url": "https://i.slow.pics/hfE9nXId.webp",
+        "model_name": "2xNomosUni_compact_otf_jpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/oVQIN0qr.webp",
+        "model_name": "2xNomosUni_compact_multijpg_ldl"
+    },
+    {
+        "public_url": "https://i.slow.pics/jiMGhI1a.webp",
+        "model_name": "2xNomosUni_compact_multijpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/3fP4Iknk.webp",
+        "model_name": "2xNomosUni_compact_otf_strong"
+    },
+    {
+        "public_url": "https://i.slow.pics/78PTkQhs.webp",
+        "model_name": "2xNomosUni_compact_otf_medium"
+    },
+    {
+        "public_url": "https://i.slow.pics/lPxpuYKS.webp",
+        "model_name": "2xNomosUni_compact_otf_weak"
+    },
+    {
+        "public_url": "https://i.slow.pics/aWdVbqmj.webp",
+        "model_name": "2xNomosUni_dat2_multijpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/fUIJyhHM.webp",
+        "model_name": "4xNomosUniDAT"
+    },
+    {
+        "public_url": "https://i.slow.pics/4xaLlf28.webp",
+        "model_name": "4xNomosUniDAT2_box"
+    },
+    {
+        "public_url": "https://i.slow.pics/qJAxmKMv.webp",
+        "model_name": "4xNomosUniDAT_bokeh_jpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/HqCt5YBL.webp",
+        "model_name": "2xNomosUni_esrgan_multijpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/qxHmHy0y.webp",
+        "model_name": "4xNomosUniDAT_otf"
+    },
+    {
+        "public_url": "https://i.slow.pics/NDVR4SyC.webp",
+        "model_name": "2xNomosUni_span_multijpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/Bxwj9DSe.webp",
+        "model_name": "4xNomosUniHAT-L_bokeh_jpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/kfmYYX8H.webp",
+        "model_name": "2xNomosUni_span_multijpg_ldl"
+    },
+    {
+        "public_url": "https://i.slow.pics/9Yj6jGdp.webp",
+        "model_name": "4xNomosUni_span_multijpg"
+    },
+    {
+        "public_url": "https://i.slow.pics/soSpNmyh.webp",
+        "model_name": "1x2xNomosUni_compact_otf_weak"
+    },
+    {
+        "public_url": "https://i.slow.pics/LXHIwloe.webp",
+        "model_name": "1x2xNomosUni_compact_otf_medium"
+    }
+]

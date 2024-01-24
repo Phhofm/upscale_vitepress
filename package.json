@@ -8,6 +8,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
+    "element-plus": "^2.5.3",
     "vue-image-compare2": "^1.0.0"
   }
 }
