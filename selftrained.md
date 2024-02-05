@@ -12,6 +12,8 @@ outline: [2, 4]
   import cutoutfiles_selection from './filelists/selftrained/cutout_selection.json'
   import facefiles from './filelists/selftrained/face.json'
   import facefiles_selection from './filelists/selftrained/face_selection.json'
+  import bendaydotsfiles from './filelists/selftrained/bendaydots.json'
+  import bendaydotsfiles_selection from './filelists/selftrained/bendaydots_selection.json'
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -41,13 +43,17 @@ forceRerender();
 ## Self Trained Upscaling Models
 
 These examples feature my self trained upscaling models or interpolations I made.
-Most of these inputs are purpesfully small (256x256) and cropped into an interesting region. This should help not only with visual comparison but also faster loading times.
+Most of these inputs are cropped into an interesting region and purposefully small (256x256). This should help not only with visual comparison but also faster loading times.
 
-> Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
+> Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Controls do not work on mobile. Model selection is filterable, so a model name can be typed in and it will filter for outputs containing that string.
 
 ### Filtered Results
-For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
+> For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
 You can still go to the Unfiltered Results Section, which contains all the outputs.
+
+> (This Section is wip so examples are commented out)
+
+<!---
 
 <br/>
 
@@ -74,7 +80,7 @@ A Face Photo example (cropped to interesting section, 256x256)
 <br/>
 
 
-
+-->
 
 ### Unfiltered Results
 This Section contains the full examples, meaning all outputs (113), from worst to acceptable to best, but Ill let you decide. This page, after all, is for you to get an impression on the outputs of models in comparison between each other.
@@ -83,6 +89,8 @@ This Section contains the full examples, meaning all outputs (113), from worst t
 
 
 #### 2dcutout
+
+A 2D Game Art Style example: Cutout art (256x256)
 
 <div id="cutout_full">
 <ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles"/>
@@ -99,6 +107,17 @@ A Face Photo example (cropped to interesting section, 256x256)
 <ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/UXgfK7yn.png' :fileNamesList="facefiles"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('face_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
+#### bendaydots
+
+A Bendaydot example (256x256)
+
+<div id="bendaydots_full">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/MM6R3A2c.png' :fileNamesList="bendaydotsfiles"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('bendaydots_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 

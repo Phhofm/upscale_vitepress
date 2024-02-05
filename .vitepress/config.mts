@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Helaman's Visual Upscale Comparison Site",
+  title: "Helaman's Visual Upscale Comparison Site v2",
   description: "A VitePress Site to compare the outputs of upscaling models",
     base: '/upscale_vitepress/',
 
