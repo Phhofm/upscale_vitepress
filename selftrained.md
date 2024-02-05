@@ -9,7 +9,9 @@ outline: [2, 4]
   import imageCompare from "vue-image-compare2";
   import ImageSlider from './imageslider.vue' // the vue image slider example comparison component
   import cutoutfiles from './filelists/selftrained/cutout.json'
-    import cutoutfiles_selection from './filelists/selftrained/cutout_selection.json'
+  import cutoutfiles_selection from './filelists/selftrained/cutout_selection.json'
+  import facefiles from './filelists/selftrained/face.json'
+  import facefiles_selection from './filelists/selftrained/face_selection.json'
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -39,28 +41,77 @@ forceRerender();
 ## Self Trained Upscaling Models
 
 These examples feature my self trained upscaling models or interpolations I made.
+Most of these inputs are purpesfully small (256x256) and cropped into an interesting region. This should help not only with visual comparison but also faster loading times.
 
 > Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
+
+### Filtered Results
+For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
+You can still go to the Unfiltered Results Section, which contains all the outputs.
+
+<br/>
 
 #### 2dcutout
 
 A 2D Game Art Style example: Cutout art (256x256)
 
-<div id="cutout">
+<div id="cutout_selection">
 <ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles_selection"/>
 </div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('cutout')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('cutout_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
+#### face
+
+A Face Photo example (cropped to interesting section, 256x256)
+
+<div id="face_selection">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/UXgfK7yn.png' :fileNamesList="facefiles_selection"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('face_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-  <summary>Full example (113 outputs)</summary>
-  <p>
+
+
+
+### Unfiltered Results
+This Section contains the full examples, meaning all outputs (113), from worst to acceptable to best, but Ill let you decide. This page, after all, is for you to get an impression on the outputs of models in comparison between each other.
+<br/>
+
+
+
+#### 2dcutout
 
 <div id="cutout_full">
 <ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('cutout_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
+#### face
+
+A Face Photo example (cropped to interesting section, 256x256)
+
+<div id="face_full">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/UXgfK7yn.png' :fileNamesList="facefiles"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('face_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-  </p>
+<!---
+Cannot use <details> as a collapsible html tag for unfiltered results directly under filtered results because it will not properly load the element, like
+
+   <details>
+  <summary>Unfiltered Outputs</summary>
+  <div id="cutout_full">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('cutout_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+</details> 
+
+-->
