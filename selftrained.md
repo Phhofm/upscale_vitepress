@@ -14,6 +14,7 @@ outline: [2, 4]
   import facefiles_selection from './filelists/selftrained/face_selection.json'
   import bendaydotsfiles from './filelists/selftrained/bendaydots.json'
   import bendaydotsfiles_selection from './filelists/selftrained/bendaydots_selection.json'
+  import digitalartfiles from './filelists/selftrained/digitalart.json'
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -119,7 +120,18 @@ A Bendaydot example (256x256)
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('bendaydots_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/>
+<br/><br/><br/>
+
+#### digitalart
+
+A digital art example (256x256)
+
+<div id="digitalart_full">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/sXtLqRmX.png' :fileNamesList="digitalartfiles"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('digitalart_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
 
 <!---
 Cannot use <details> as a collapsible html tag for unfiltered results directly under filtered results because it will not properly load the element, like
