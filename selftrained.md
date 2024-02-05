@@ -15,6 +15,7 @@ outline: [2, 4]
   import bendaydotsfiles from './filelists/selftrained/bendaydots.json'
   import bendaydotsfiles_selection from './filelists/selftrained/bendaydots_selection.json'
   import digitalartfiles from './filelists/selftrained/digitalart.json'
+  import aniscreenfiles from './filelists/selftrained/aniscreen.json'
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -130,6 +131,17 @@ A digital art example (256x256)
 <ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/sXtLqRmX.png' :fileNamesList="digitalartfiles"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('digitalart_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
+#### aniscreen
+
+A anime frame example (256x256)
+
+<div id="aniscreen_full">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/rAcoxotm.png' :fileNamesList="aniscreenfiles"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('aniscreen_full')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/><br/><br/>
 
