@@ -7,7 +7,7 @@ outline: [2, 4]
 
 <script setup lang="ts">
   import imageCompare from "vue-image-compare2";
-  import ImageSlider from './imageslider.vue' // the vue image slider example comparison component
+  import ImageSlider from './components/imageslider.vue' // the vue image slider example comparison component
   import cutoutfiles from './filelists/selftrained/cutout.json'
   import cutoutfiles_selection from './filelists/selftrained/cutout_selection.json'
   import facefiles from './filelists/selftrained/face.json'
@@ -15,6 +15,7 @@ outline: [2, 4]
   import bendaydotsfiles from './filelists/selftrained/bendaydots.json'
   import bendaydotsfiles_selection from './filelists/selftrained/bendaydots_selection.json'
   import digitalartfiles from './filelists/selftrained/digitalart.json'
+  import digitalartfiles_selection from './filelists/selftrained/digitalart_selection.json'
   import aniscreenfiles from './filelists/selftrained/aniscreen.json'
 
 //HTML5 Fullscreen API
@@ -50,10 +51,27 @@ Most of these inputs are cropped into an interesting region and purposefully sma
 > Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Controls do not work on mobile. Model selection is filterable, so a model name can be typed in and it will filter for outputs containing that string.
 
 ### Filtered Results
-> For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
-You can still go to the Unfiltered Results Section, which contains all the outputs.
+For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
+You can still go to the [Unfiltered Results Section](#unfiltered-results), which contains all the self-trained outputs.
 
-> (This Section is wip so examples are commented out)
+> (This Section is wip)
+
+#### digitalart
+
+A digital art example (256x256).
+
+For 4x, I recommend checking out the [4xNomosUniDAT2_box](https://openmodeldb.info/models/4x-NomosUniDAT2-box) model output.  
+And for a softer touch, the [4xLSDIRDAT](https://openmodeldb.info/models/4x-LSDIRDAT) model output.  
+The Interpolations also seems to work well, like 4xInt-RemArt.  
+For 2x, I recommend checking out the 2xNomosUni_dat_multijpg output.  
+
+<div id="digitalart_selection">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/sXtLqRmX.png' :fileNamesList="digitalartfiles_selection"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('digitalart_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
 
 <!---
 
