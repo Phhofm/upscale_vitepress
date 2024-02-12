@@ -1,10 +1,182 @@
 [
-    {
-        "public_url": "https://i.slow.pics/0nrY3AtV.webp",
-        "model_name": "1x2xNomosUni_compact_otf_medium"
-    },
-    {
-        "public_url": "https://i.slow.pics/qFD0Fkl9.webp",
-        "model_name": "1x2xNomosUni_compact_otf_weak"
-    }
+  {
+    "public_url": "https://i.slow.pics/rMFAQBnN.webp",
+    "model_name": "4xFaceUpSharpDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/FkZz2yNh.webp",
+    "model_name": "4xFaceUpDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/WnpvrbRX.webp",
+    "model_name": "4xNomos8kSCHAT-L"
+  },
+  {
+    "public_url": "https://i.slow.pics/N0DTSYbR.webp",
+    "model_name": "4xNomos8kSCHAT-S"
+  },
+  {
+    "public_url": "https://i.slow.pics/vnyp0Kws.webp",
+    "model_name": "4xNomos8kSCSRFormer"
+  },
+  {
+    "public_url": "https://i.slow.pics/k4cTc7bO.webp",
+    "model_name": "2xNomosUni_dat2_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/kGGvdm1K.webp",
+    "model_name": "2xNomosUni_compact_multijpg_ldl"
+  },
+  {
+    "public_url": "https://i.slow.pics/YoAlv4j6.webp",
+    "model_name": "2xNomosUni_span_multijpg_ldl"
+  },
+  {
+    "public_url": "https://i.slow.pics/0nrY3AtV.webp",
+    "model_name": "1x2xNomosUni_compact_otf_medium"
+  },
+  {
+    "public_url": "https://i.slow.pics/qFD0Fkl9.webp",
+    "model_name": "1x2xNomosUni_compact_otf_weak"
+  },
+  {
+    "public_url": "https://i.slow.pics/ac44h51N.webp",
+    "model_name": "2xHFA2kAVCCompact"
+  },
+  {
+    "public_url": "https://i.slow.pics/Krj1LBc1.webp",
+    "model_name": "2xHFA2kAVCOmniSR"
+  },
+  {
+    "public_url": "https://i.slow.pics/g0o581FW.webp",
+    "model_name": "2xHFA2kAVCOmniSR_Sharp"
+  },
+  {
+    "public_url": "https://i.slow.pics/lO0Vv1rw.webp",
+    "model_name": "2xHFA2k_compact_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/S5lfvKEQ.webp",
+    "model_name": "2xHFA2kOmniSR"
+  },
+  {
+    "public_url": "https://i.slow.pics/4eX0X902.webp",
+    "model_name": "2xHFA2kSwinIR-S"
+  },
+  {
+    "public_url": "https://i.slow.pics/2EpBgosm.webp",
+    "model_name": "2xLexicaRRDBNet"
+  },
+  {
+    "public_url": "https://i.slow.pics/ieFUjHVO.webp",
+    "model_name": "2xLexicaRRDBNet_Sharp"
+  },
+  {
+    "public_url": "https://i.slow.pics/LD6TgzsU.webp",
+    "model_name": "2xLexicaSwinIR"
+  },
+  {
+    "public_url": "https://i.slow.pics/hjXXRlyQ.webp",
+    "model_name": "2xNomosUni_compact_multijpg"
+  },
+
+  {
+    "public_url": "https://i.slow.pics/LYK0F2sT.webp",
+    "model_name": "2xNomosUni_compact_otf_jpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/8vkG3vj1.webp",
+    "model_name": "2xNomosUni_compact_otf_medium"
+  },
+  {
+    "public_url": "https://i.slow.pics/eoyrIX9e.webp",
+    "model_name": "2xNomosUni_compact_otf_strong"
+  },
+  {
+    "public_url": "https://i.slow.pics/AinOYQ80.webp",
+    "model_name": "2xNomosUni_compact_otf_weak"
+  },
+
+  {
+    "public_url": "https://i.slow.pics/wydHmhGx.webp",
+    "model_name": "2xNomosUni_esrgan_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/zX8XUeIK.webp",
+    "model_name": "2xNomosUni_span_multijpg"
+  },
+
+  {
+    "public_url": "https://i.slow.pics/w7fnv7bS.webp",
+    "model_name": "4xFaceUpSharpESRGAN_net_g_80000"
+  },
+  {
+    "public_url": "https://i.slow.pics/I9qGKejL.webp",
+    "model_name": "4xFFHA_2DAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/yxPTsB0x.webp",
+    "model_name": "4xFFHQDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/QOYy1TJM.webp",
+    "model_name": "4xFFHQDAT_169000"
+  },
+  {
+    "public_url": "https://i.slow.pics/qqbiiCIk.webp",
+    "model_name": "4xLSDIRDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/Ds6H4oFr.webp",
+    "model_name": "4xNomos8kDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/2j0e7oQm.webp",
+    "model_name": "4xNomos8kHAT-L_bokeh_jpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/poqhPj2p.webp",
+    "model_name": "4xNomos8kHAT-L_otf"
+  },
+  {
+    "public_url": "https://i.slow.pics/vvTahdZ9.webp",
+    "model_name": "4xNomos8kSC"
+  },
+
+  {
+    "public_url": "https://i.slow.pics/Rg8UIQKG.webp",
+    "model_name": "4xNomosUniDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/Jlg2etIm.webp",
+    "model_name": "4xNomosUniDAT2_box"
+  },
+  {
+    "public_url": "https://i.slow.pics/kxCKZ4ul.webp",
+    "model_name": "4xNomosUniDAT2_boxhb_net_g_80000"
+  },
+  {
+    "public_url": "https://i.slow.pics/8usFtpEg.webp",
+    "model_name": "4xNomosUniDAT2_otf_net_g_45000"
+  },
+  {
+    "public_url": "https://i.slow.pics/ReJurQUs.webp",
+    "model_name": "4xNomosUniDAT_bokeh_jpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/bzDojS36.webp",
+    "model_name": "4xNomosUniDAT_otf"
+  },
+  {
+    "public_url": "https://i.slow.pics/dVEg4ruI.webp",
+    "model_name": "4xNomosUniHAT-L_bokeh_jpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/HZZmxH0x.webp",
+    "model_name": "4xNomosUni_span_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/VFDHcox4.webp",
+    "model_name": "4xSSDIRDAT"
+  }
 ]

@@ -72,6 +72,23 @@ For 2x, I recommend checking out the 2xNomosUni_dat_multijpg output.
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/><br/><br/>
 
+#### face
+
+A Face Photo example (cropped to interesting section, 256x256)
+
+For 4x, I recommend checking out the [4xFaceUpSharpDAT](https://openmodeldb.info/models/4x-FaceUpSharpDAT) model output - this model has a tendency to over-interpret everything as hair, this is why it does well on this input.   
+A safter alternative is [4xFaceUpDAT](https://openmodeldb.info/models/4x-FaceUpDAT).
+Both of these models are trained on a [self-curated dataset (FaceUp)](https://www.youtube.com/watch?v=TBiVIzQkptI) which I made out of the FFHQ dataset.   
+Other 4x models that do well here and are not specialized/ trained on faces alone are [4xNomos8kSCHAT-L](https://openmodeldb.info/models/4x-Nomos8kSCHAT-L), [4xNomos8kSCHAT-S](https://openmodeldb.info/models/4x-Nomos8kSCHAT-S) and [4xNomos8kSCSRFormer](https://openmodeldb.info/models/4x-Nomos8kSCSRFormer).   
+For 2x, I recommend checking out the 2xNomosUni_dat_multijpg mode output. One could also go with the lightweight alternatives 2xNomosUni_compact_multijpg_ldl or 2xNomosUni_span_multijpg_ldl.
+
+<div id="face_selection">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/UXgfK7yn.png' :fileNamesList="facefiles_selection"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('face_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
 
 <!---
 
