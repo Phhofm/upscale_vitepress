@@ -88,10 +88,6 @@
         "model_name": "2xHFA2kSwinIR-S"
     },
     {
-        "public_url": "https://i.slow.pics/lrtq4RYl.webp",
-        "model_name": "2xInt-LD-AnimeJaNai"
-    },
-    {
         "public_url": "https://i.slow.pics/2EpBgosm.webp",
         "model_name": "2xLexicaRRDBNet"
     },
@@ -210,38 +206,6 @@
     {
         "public_url": "https://i.slow.pics/DVNikUK9.webp",
         "model_name": "4xHFA2kLUDVAESwinIR_light"
-    },
-    {
-        "public_url": "https://i.slow.pics/VutbjWRH.webp",
-        "model_name": "4xInt-AnimeArt"
-    },
-    {
-        "public_url": "https://i.slow.pics/8H3PTat7.webp",
-        "model_name": "4xInt-RemacRestore"
-    },
-    {
-        "public_url": "https://i.slow.pics/IUWimCMn.webp",
-        "model_name": "4xInt-RemAnime"
-    },
-    {
-        "public_url": "https://i.slow.pics/CVoy6K7h.webp",
-        "model_name": "4xInt-RemArt"
-    },
-    {
-        "public_url": "https://i.slow.pics/Edy5qjMf.webp",
-        "model_name": "4xInt-RemDF2K"
-    },
-    {
-        "public_url": "https://i.slow.pics/vDZ6w6Hr.webp",
-        "model_name": "4xInt-Siacri"
-    },
-    {
-        "public_url": "https://i.slow.pics/9DEjHtYI.webp",
-        "model_name": "4xInt-Superscri"
-    },
-    {
-        "public_url": "https://i.slow.pics/TxCwxKdK.webp",
-        "model_name": "4xInt-Ultracri"
     },
     {
         "public_url": "https://i.slow.pics/Sr4SBmJO.webp",

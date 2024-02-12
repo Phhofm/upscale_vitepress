@@ -1,6 +1,6 @@
 ---
 title: Selftrained
-description: Visual Comparison of Multiple Self trained or interpolated Models
+description: Visual Comparison of Multiple Self-Trained Models
 layout: doc
 outline: [2, 4]
 ---
@@ -45,24 +45,23 @@ forceRerender();
 
 ## Self Trained Upscaling Models
 
-These examples feature my self trained upscaling models or interpolations I made.
+These examples feature my self trained upscaling models.
 Most of these inputs are cropped into an interesting region and purposefully small (256x256). This should help not only with visual comparison but also faster loading times.
 
 > Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Controls do not work on mobile. Model selection is filterable, so a model name can be typed in and it will filter for outputs containing that string.
 
+<br/><br/>
+
 ### Filtered Results
 For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
-You can still go to the [Unfiltered Results Section](#unfiltered-results), which contains all the self-trained outputs.
-
-> (This Section is wip)
+You can still go to the [Unfiltered Results Section](#unfiltered-results), which contains all the self-trained outputs.<br/><br/>  
 
 #### digitalart
 
 A digital art example (256x256).
 
 For 4x, I recommend checking out the [4xNomosUniDAT2_box](https://openmodeldb.info/models/4x-NomosUniDAT2-box) model output.  
-And for a softer touch, the [4xLSDIRDAT](https://openmodeldb.info/models/4x-LSDIRDAT) model output.  
-The Interpolations also seems to work well, like 4xInt-RemArt.  
+And for a softer touch, the [4xLSDIRDAT](https://openmodeldb.info/models/4x-LSDIRDAT) model output.    
 For 2x, I recommend checking out the 2xNomosUni_dat_multijpg output.  
 
 <div id="digitalart_selection">
