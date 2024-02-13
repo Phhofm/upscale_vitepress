@@ -17,6 +17,7 @@ outline: [2, 4]
   import digitalartfiles from './filelists/selftrained/digitalart.json'
   import digitalartfiles_selection from './filelists/selftrained/digitalart_selection.json'
   import aniscreenfiles from './filelists/selftrained/aniscreen.json'
+  import aniscreenfiles_selection from './filelists/selftrained/aniscreen_selection.json'
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -46,14 +47,17 @@ forceRerender();
 ## Self Trained Upscaling Models
 
 These examples feature my self trained upscaling models.
-Most of these inputs are cropped into an interesting region and purposefully small (256x256). This should help not only with visual comparison but also faster loading times.
+Most of these inputs are cropped into an interesting region and purposefully small (256x256).  
+This should help not only with visual comparison but also faster loading times.
 
 > Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Controls do not work on mobile. Model selection is filterable, so a model name can be typed in and it will filter for outputs containing that string.
 
 <br/><br/>
 
 ### Filtered Results
-For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.
+For this Section I visually went through all the outputs and feature a filtered selection of outputs here I personally found acceptable to save you time going through all the outputs.  
+I also write which model/output I liked best for that specific input out of all of these.  
+  
 You can still go to the [Unfiltered Results Section](#unfiltered-results), which contains all the self-trained outputs.<br/><br/>  
 
 #### digitalart
@@ -85,6 +89,22 @@ For 2x, I recommend checking out the 2xNomosUni_dat_multijpg mode output. One co
 <ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/UXgfK7yn.png' :fileNamesList="facefiles_selection"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('face_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
+#### aniscreen
+
+A anime frame example (256x256)   
+
+While some of my models like the '_multijpg' models are made to preserve depth of field, for this specific input we may want models that deblur. Also details preserving, by looking at those wooden floor boards (wood texture present or fully gone?) so:   
+
+For 4x i liked the [4xHFA2k](https://openmodeldb.info/models/4x-HFA2k) output most, which deblurs but preserves details well. Second [4xNomos8kSCHAT-L](https://openmodeldb.info/models/4x-Nomos8kSCHAT-L)   
+For 2x it would be [2xHFA2kCompact](https://openmodeldb.info/models/2x-HFA2kCompact). Second 2xHFA2kSwinIR-S.
+
+<div id="aniscreen_selection">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/rAcoxotm.png' :fileNamesList="aniscreenfiles_selection"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('aniscreen_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/><br/><br/>
 
