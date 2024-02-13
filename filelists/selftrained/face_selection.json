@@ -52,16 +52,16 @@
     "model_name": "2xHFA2kAVCOmniSR_Sharp"
   },
   {
-    "public_url": "https://i.slow.pics/lO0Vv1rw.webp",
-    "model_name": "2xHFA2k_compact_multijpg"
-  },
-  {
     "public_url": "https://i.slow.pics/S5lfvKEQ.webp",
     "model_name": "2xHFA2kOmniSR"
   },
   {
     "public_url": "https://i.slow.pics/4eX0X902.webp",
     "model_name": "2xHFA2kSwinIR-S"
+  },
+  {
+    "public_url": "https://i.slow.pics/lO0Vv1rw.webp",
+    "model_name": "2xHFA2k_compact_multijpg"
   },
   {
     "public_url": "https://i.slow.pics/2EpBgosm.webp",
@@ -79,7 +79,6 @@
     "public_url": "https://i.slow.pics/hjXXRlyQ.webp",
     "model_name": "2xNomosUni_compact_multijpg"
   },
-
   {
     "public_url": "https://i.slow.pics/LYK0F2sT.webp",
     "model_name": "2xNomosUni_compact_otf_jpg"
@@ -96,7 +95,6 @@
     "public_url": "https://i.slow.pics/AinOYQ80.webp",
     "model_name": "2xNomosUni_compact_otf_weak"
   },
-
   {
     "public_url": "https://i.slow.pics/wydHmhGx.webp",
     "model_name": "2xNomosUni_esrgan_multijpg"
@@ -104,11 +102,6 @@
   {
     "public_url": "https://i.slow.pics/zX8XUeIK.webp",
     "model_name": "2xNomosUni_span_multijpg"
-  },
-
-  {
-    "public_url": "https://i.slow.pics/w7fnv7bS.webp",
-    "model_name": "4xFaceUpSharpESRGAN_net_g_80000"
   },
   {
     "public_url": "https://i.slow.pics/I9qGKejL.webp",
@@ -121,6 +114,10 @@
   {
     "public_url": "https://i.slow.pics/QOYy1TJM.webp",
     "model_name": "4xFFHQDAT_169000"
+  },
+  {
+    "public_url": "https://i.slow.pics/w7fnv7bS.webp",
+    "model_name": "4xFaceUpSharpESRGAN_net_g_80000"
   },
   {
     "public_url": "https://i.slow.pics/qqbiiCIk.webp",
@@ -142,7 +139,6 @@
     "public_url": "https://i.slow.pics/vvTahdZ9.webp",
     "model_name": "4xNomos8kSC"
   },
-
   {
     "public_url": "https://i.slow.pics/Rg8UIQKG.webp",
     "model_name": "4xNomosUniDAT"
