@@ -258,5 +258,25 @@
   {
     "public_url": "https://i.slow.pics/Q9fY3XGp.webp",
     "model_name": "4xSSDIRDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/c4AaUv5j.webp",
+    "model_name": "4xNomosUni_dat2_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/7hu04LBr.webp",
+    "model_name": "4xNomosUniDAT2_multijpg_ldl"
+  },
+  {
+    "public_url": "https://i.slow.pics/FYVtU27D.webp",
+    "model_name": "4xNomosUniDAT2_multijpg_ldl_sharp"
+  },
+  {
+    "public_url": "https://i.slow.pics/Eg4j89US.png",
+    "model_name": "4xNomosUni_rgt_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/TImZa6iz.webp",
+    "model_name": "4xNomosUni_rgt_s_multijpg"
   }
 ]
