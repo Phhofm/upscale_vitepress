@@ -1,414 +1,454 @@
 [
-  {
-    "public_url": "https://i.slow.pics/Oa1CZuPk.webp",
-    "model_name": "1x2xNomosUni_compact_otf_medium"
-  },
-  {
-    "public_url": "https://i.slow.pics/CwXPivkl.webp",
-    "model_name": "1x2xNomosUni_compact_otf_weak"
-  },
-  {
-    "public_url": "https://i.slow.pics/djF9frev.webp",
-    "model_name": "1xDeJPG_HAT-L"
-  },
-  {
-    "public_url": "https://i.slow.pics/qxbtuxJN.webp",
-    "model_name": "1xDeJPG_OmniSR"
-  },
-  {
-    "public_url": "https://i.slow.pics/VUAzBdmV.webp",
-    "model_name": "1xDeJPG_OmniSR_OTF_net_g_113000"
-  },
-  {
-    "public_url": "https://i.slow.pics/X8VGlBZk.webp",
-    "model_name": "1xDeJPG_OmniSR_helaman_net_g_82000"
-  },
-  {
-    "public_url": "https://i.slow.pics/kBLWHlKi.webp",
-    "model_name": "1xDeJPG_SRFormer_light"
-  },
-  {
-    "public_url": "https://i.slow.pics/gCgJDeeL.webp",
-    "model_name": "1xDeJPG_SRFormer_light_otf_net_g_94000"
-  },
-  {
-    "public_url": "https://i.slow.pics/uV7c5p7U.webp",
-    "model_name": "2xHFA2kAVCCompact"
-  },
-  {
-    "public_url": "https://i.slow.pics/TNlInDq8.webp",
-    "model_name": "2xHFA2kAVCOmniSR"
-  },
-  {
-    "public_url": "https://i.slow.pics/R2lB3UqF.webp",
-    "model_name": "2xHFA2kAVCOmniSR_Sharp"
-  },
-  {
-    "public_url": "https://i.slow.pics/Ap48Dpvc.webp",
-    "model_name": "2xHFA2kCSRFormer_light"
-  },
-  {
-    "public_url": "https://i.slow.pics/ffoCWql2.webp",
-    "model_name": "2xHFA2kCompact"
-  },
-  {
-    "public_url": "https://i.slow.pics/9RFsMNN2.webp",
-    "model_name": "2xHFA2kOmniSR"
-  },
-  {
-    "public_url": "https://i.slow.pics/3leUQ0er.webp",
-    "model_name": "2xHFA2kReal-CUGAN"
-  },
-  {
-    "public_url": "https://i.slow.pics/F2ocxkGE.webp",
-    "model_name": "2xHFA2kSPAN_27k"
-  },
-  {
-    "public_url": "https://i.slow.pics/qm0MmfJF.webp",
-    "model_name": "2xHFA2kShallowESRGAN"
-  },
-  {
-    "public_url": "https://i.slow.pics/nUa6zAN3.webp",
-    "model_name": "2xHFA2kSwinIR-S"
-  },
-  {
-    "public_url": "https://i.slow.pics/EB2e5eTd.webp",
-    "model_name": "2xHFA2k_LUDAVE_span"
-  },
-  {
-    "public_url": "https://i.slow.pics/9Xv3hJVB.webp",
-    "model_name": "2xHFA2k_LUDVAE_SPAN"
-  },
-  {
-    "public_url": "https://i.slow.pics/Yi17a50q.webp",
-    "model_name": "2xHFA2k_LUDVAE_compact"
-  },
-  {
-    "public_url": "https://i.slow.pics/yAjRx6Mv.webp",
-    "model_name": "2xHFA2k_compact_multijpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/8wzCorF1.webp",
-    "model_name": "2xLexicaRRDBNet"
-  },
-  {
-    "public_url": "https://i.slow.pics/ccHvnxvi.webp",
-    "model_name": "2xLexicaRRDBNet_Sharp"
-  },
-  {
-    "public_url": "https://i.slow.pics/SSNiz1zL.webp",
-    "model_name": "2xLexicaSwinIR"
-  },
-  {
-    "public_url": "https://i.slow.pics/xX3RGuPN.webp",
-    "model_name": "2xNomosUni_compact_multijpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/UFLhSzHx.webp",
-    "model_name": "2xNomosUni_compact_multijpg_ldl"
-  },
-  {
-    "public_url": "https://i.slow.pics/OpTsWXl9.webp",
-    "model_name": "2xNomosUni_compact_otf_jpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/y6XScRKX.webp",
-    "model_name": "2xNomosUni_compact_otf_medium"
-  },
-  {
-    "public_url": "https://i.slow.pics/JF7Wo581.webp",
-    "model_name": "2xNomosUni_compact_otf_strong"
-  },
-  {
-    "public_url": "https://i.slow.pics/5UUlx9lw.webp",
-    "model_name": "2xNomosUni_compact_otf_weak"
-  },
-  {
-    "public_url": "https://i.slow.pics/QHUJoGTL.webp",
-    "model_name": "2xNomosUni_dat2_multijpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/ilFsT2XY.webp",
-    "model_name": "2xNomosUni_esrgan_multijpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/dDw8YANY.webp",
-    "model_name": "2xNomosUni_span_multijpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/dxZPu1IC.webp",
-    "model_name": "2xNomosUni_span_multijpg_ldl"
-  },
-  {
-    "public_url": "https://i.slow.pics/wGgNZjvT.webp",
-    "model_name": "2xParimgCompact"
-  },
-  {
-    "public_url": "https://i.slow.pics/2nW1Xh38.webp",
-    "model_name": "4xCompactNoiseJPG80Multiscale"
-  },
-  {
-    "public_url": "https://i.slow.pics/56LxAvcG.webp",
-    "model_name": "4xFFHQDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/vPZxvquR.webp",
-    "model_name": "4xFFHQDAT_169000"
-  },
-  {
-    "public_url": "https://i.slow.pics/lbXod8AN.webp",
-    "model_name": "4xFFHQLDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/FN1brgIi.webp",
-    "model_name": "4xFFHQ_2DAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/bb9RxvAY.webp",
-    "model_name": "4xFaceUpDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/G6D4BfqY.webp",
-    "model_name": "4xFaceUpLDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/qwnt4QYX.webp",
-    "model_name": "4xFaceUpSharpDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/qYUmtxBh.webp",
-    "model_name": "4xFaceUpSharpESRGAN_net_g_80000"
-  },
-  {
-    "public_url": "https://i.slow.pics/haA28otx.webp",
-    "model_name": "4xFaceUpSharpLDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/9Oyo637G.webp",
-    "model_name": "4xHFA2k"
-  },
-  {
-    "public_url": "https://i.slow.pics/Kd5zUfU0.webp",
-    "model_name": "4xHFA2kLUDVAEDAT_light"
-  },
-  {
-    "public_url": "https://i.slow.pics/OkI2P9wQ.webp",
-    "model_name": "4xHFA2kLUDVAEGRL_small"
-  },
-  {
-    "public_url": "https://i.slow.pics/fTIvkYCY.webp",
-    "model_name": "4xHFA2kLUDVAESRFormer_light"
-  },
-  {
-    "public_url": "https://i.slow.pics/cTjXNrX8.webp",
-    "model_name": "4xHFA2kLUDVAESwinIR_light"
-  },
-  {
-    "public_url": "https://i.slow.pics/uYwnz5WU.webp",
-    "model_name": "4xLSDIR"
-  },
-  {
-    "public_url": "https://i.slow.pics/u2NKCuIl.webp",
-    "model_name": "4xLSDIRCompact"
-  },
-  {
-    "public_url": "https://i.slow.pics/DZbYG2co.webp",
-    "model_name": "4xLSDIRCompact1"
-  },
-  {
-    "public_url": "https://i.slow.pics/2h3itVzq.webp",
-    "model_name": "4xLSDIRCompact2"
-  },
-  {
-    "public_url": "https://i.slow.pics/hlqXwfX6.webp",
-    "model_name": "4xLSDIRCompact3"
-  },
-  {
-    "public_url": "https://i.slow.pics/ekNLXSdI.webp",
-    "model_name": "4xLSDIRCompactC"
-  },
-  {
-    "public_url": "https://i.slow.pics/XBxucHmG.webp",
-    "model_name": "4xLSDIRCompactC1"
-  },
-  {
-    "public_url": "https://i.slow.pics/YUKXAgmi.webp",
-    "model_name": "4xLSDIRCompactC2"
-  },
-  {
-    "public_url": "https://i.slow.pics/hVV3jgGL.webp",
-    "model_name": "4xLSDIRCompactC3"
-  },
-  {
-    "public_url": "https://i.slow.pics/3vEwkDbu.webp",
-    "model_name": "4xLSDIRCompactN3"
-  },
-  {
-    "public_url": "https://i.slow.pics/sJIyS598.webp",
-    "model_name": "4xLSDIRCompactR1"
-  },
-  {
-    "public_url": "https://i.slow.pics/MsToUqCz.webp",
-    "model_name": "4xLSDIRCompactR2"
-  },
-  {
-    "public_url": "https://i.slow.pics/SoALHTxa.webp",
-    "model_name": "4xLSDIRCompactR3"
-  },
-  {
-    "public_url": "https://i.slow.pics/Zv7Ljm5S.webp",
-    "model_name": "4xLSDIRDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/Z6d0fAD8.webp",
-    "model_name": "4xLSDIRHAT-L_net_g_50000"
-  },
-  {
-    "public_url": "https://i.slow.pics/9zyvSJyA.webp",
-    "model_name": "4xLSDIRplus"
-  },
-  {
-    "public_url": "https://i.slow.pics/BePJVywe.webp",
-    "model_name": "4xLSDIRplusC"
-  },
-  {
-    "public_url": "https://i.slow.pics/BWh1vI6d.webp",
-    "model_name": "4xLSDIRplusN"
-  },
-  {
-    "public_url": "https://i.slow.pics/NtBEsw4c.webp",
-    "model_name": "4xLSDIRplusR"
-  },
-  {
-    "public_url": "https://i.slow.pics/26tvUu6S.webp",
-    "model_name": "4xLexicaBoxNoise2"
-  },
-  {
-    "public_url": "https://i.slow.pics/PxALdFN1.webp",
-    "model_name": "4xLexicaCompactBlurJPG80Multidown"
-  },
-  {
-    "public_url": "https://i.slow.pics/DlEmKBcH.webp",
-    "model_name": "4xLexicaCompactBox"
-  },
-  {
-    "public_url": "https://i.slow.pics/ZI5qkXtO.webp",
-    "model_name": "4xLexicaCompactBoxBlur"
-  },
-  {
-    "public_url": "https://i.slow.pics/8tSINC8d.webp",
-    "model_name": "4xLexicaCompactBoxBlur2"
-  },
-  {
-    "public_url": "https://i.slow.pics/yNyocg0V.webp",
-    "model_name": "4xLexicaCompactBoxJPG80"
-  },
-  {
-    "public_url": "https://i.slow.pics/FdcwmNvp.webp",
-    "model_name": "4xLexicaCompactBoxNoise"
-  },
-  {
-    "public_url": "https://i.slow.pics/du9fBGuJ.webp",
-    "model_name": "4xLexicaCompactBoxNoiseBlur2JPG80"
-  },
-  {
-    "public_url": "https://i.slow.pics/7hjjRyHO.webp",
-    "model_name": "4xLexicaDAT2_hb"
-  },
-  {
-    "public_url": "https://i.slow.pics/dw0FyhIE.webp",
-    "model_name": "4xLexicaDAT2_net_g_62500"
-  },
-  {
-    "public_url": "https://i.slow.pics/YaysxKP1.webp",
-    "model_name": "4xLexicaDAT2_otf"
-  },
-  {
-    "public_url": "https://i.slow.pics/gPEixRzv.webp",
-    "model_name": "4xLexicaHAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/rBH3bbtY.webp",
-    "model_name": "4xNomos8kDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/RQuaGaBT.webp",
-    "model_name": "4xNomos8kHAT-L_bokeh_jpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/wcohleGz.webp",
-    "model_name": "4xNomos8kHAT-L_otf"
-  },
-  {
-    "public_url": "https://i.slow.pics/NhNLF4bI.webp",
-    "model_name": "4xNomos8kSC"
-  },
-  {
-    "public_url": "https://i.slow.pics/2HA4WOQA.webp",
-    "model_name": "4xNomos8kSCHAT-L"
-  },
-  {
-    "public_url": "https://i.slow.pics/Xl1zHyUZ.webp",
-    "model_name": "4xNomos8kSCHAT-S"
-  },
-  {
-    "public_url": "https://i.slow.pics/4E8Ly6XM.webp",
-    "model_name": "4xNomos8kSCSRFormer"
-  },
-  {
-    "public_url": "https://i.slow.pics/LE7mfEd9.webp",
-    "model_name": "4xNomos8k_span_otf_medium"
-  },
-  {
-    "public_url": "https://i.slow.pics/UqYBLqiZ.webp",
-    "model_name": "4xNomos8k_span_otf_strong"
-  },
-  {
-    "public_url": "https://i.slow.pics/Js1VF3KO.webp",
-    "model_name": "4xNomos8k_span_otf_weak"
-  },
-  {
-    "public_url": "https://i.slow.pics/eS8MV07g.webp",
-    "model_name": "4xNomosUniDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/c36iPxAg.webp",
-    "model_name": "4xNomosUniDAT2_box"
-  },
-  {
-    "public_url": "https://i.slow.pics/x7wBzHru.webp",
-    "model_name": "4xNomosUniDAT2_boxhb_net_g_80000"
-  },
-  {
-    "public_url": "https://i.slow.pics/mZqX6yUY.webp",
-    "model_name": "4xNomosUniDAT2_otf_net_g_45000"
-  },
-  {
-    "public_url": "https://i.slow.pics/QOgofsQp.webp",
-    "model_name": "4xNomosUniDAT_bokeh_jpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/GPEoZV0E.webp",
-    "model_name": "4xNomosUniDAT_otf"
-  },
-  {
-    "public_url": "https://i.slow.pics/3TKVNYwt.webp",
-    "model_name": "4xNomosUniHAT-L_bokeh_jpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/1vwoHUYm.webp",
-    "model_name": "4xNomosUni_span_multijpg"
-  },
-  {
-    "public_url": "https://i.slow.pics/WlWwnpSQ.webp",
-    "model_name": "4xReal_SSDIR_DAT_GAN"
-  },
-  {
-    "public_url": "https://i.slow.pics/jeM6FU2h.webp",
-    "model_name": "4xSSDIRDAT"
-  },
-  {
-    "public_url": "https://i.slow.pics/DqvjBuSA.webp",
-    "model_name": "4xTextureDAT2_otf"
-  }
+	{
+		"public_url": "https://i.slow.pics/Oa1CZuPk.webp",
+		"model_name": "1x2xNomosUni_compact_otf_medium"
+	},
+	{
+		"public_url": "https://i.slow.pics/CwXPivkl.webp",
+		"model_name": "1x2xNomosUni_compact_otf_weak"
+	},
+	{
+		"public_url": "https://i.slow.pics/djF9frev.webp",
+		"model_name": "1xDeJPG_HAT-L"
+	},
+	{
+		"public_url": "https://i.slow.pics/qxbtuxJN.webp",
+		"model_name": "1xDeJPG_OmniSR"
+	},
+	{
+		"public_url": "https://i.slow.pics/VUAzBdmV.webp",
+		"model_name": "1xDeJPG_OmniSR_OTF_net_g_113000"
+	},
+	{
+		"public_url": "https://i.slow.pics/X8VGlBZk.webp",
+		"model_name": "1xDeJPG_OmniSR_helaman_net_g_82000"
+	},
+	{
+		"public_url": "https://i.slow.pics/kBLWHlKi.webp",
+		"model_name": "1xDeJPG_SRFormer_light"
+	},
+	{
+		"public_url": "https://i.slow.pics/gCgJDeeL.webp",
+		"model_name": "1xDeJPG_SRFormer_light_otf_net_g_94000"
+	},
+	{
+		"public_url": "https://i.slow.pics/CHonL3jS.webp",
+		"model_name": "1xExposureCorrection_compact"
+	},
+	{
+		"public_url": "https://i.slow.pics/cDyEFdEI.webp",
+		"model_name": "1xOverExposureCorrection_compact"
+	},
+	{
+		"public_url": "https://i.slow.pics/zoOuwBLp.webp",
+		"model_name": "1xUnderExposureCorrection_compact"
+	},
+	{
+		"public_url": "https://i.slow.pics/sDvXWcSN.webp",
+		"model_name": "2xEvangelion_compact"
+	},
+	{
+		"public_url": "https://i.slow.pics/oSjKKLT8.webp",
+		"model_name": "2xEvangelion_dat2"
+	},
+	{
+		"public_url": "https://i.slow.pics/uV7c5p7U.webp",
+		"model_name": "2xHFA2kAVCCompact"
+	},
+	{
+		"public_url": "https://i.slow.pics/TNlInDq8.webp",
+		"model_name": "2xHFA2kAVCOmniSR"
+	},
+	{
+		"public_url": "https://i.slow.pics/R2lB3UqF.webp",
+		"model_name": "2xHFA2kAVCOmniSR_Sharp"
+	},
+	{
+		"public_url": "https://i.slow.pics/Ap48Dpvc.webp",
+		"model_name": "2xHFA2kCSRFormer_light"
+	},
+	{
+		"public_url": "https://i.slow.pics/ffoCWql2.webp",
+		"model_name": "2xHFA2kCompact"
+	},
+	{
+		"public_url": "https://i.slow.pics/9RFsMNN2.webp",
+		"model_name": "2xHFA2kOmniSR"
+	},
+	{
+		"public_url": "https://i.slow.pics/3leUQ0er.webp",
+		"model_name": "2xHFA2kReal-CUGAN"
+	},
+	{
+		"public_url": "https://i.slow.pics/F2ocxkGE.webp",
+		"model_name": "2xHFA2kSPAN_27k"
+	},
+	{
+		"public_url": "https://i.slow.pics/qm0MmfJF.webp",
+		"model_name": "2xHFA2kShallowESRGAN"
+	},
+	{
+		"public_url": "https://i.slow.pics/nUa6zAN3.webp",
+		"model_name": "2xHFA2kSwinIR-S"
+	},
+	{
+		"public_url": "https://i.slow.pics/EB2e5eTd.webp",
+		"model_name": "2xHFA2k_LUDAVE_span"
+	},
+	{
+		"public_url": "https://i.slow.pics/9Xv3hJVB.webp",
+		"model_name": "2xHFA2k_LUDVAE_SPAN"
+	},
+	{
+		"public_url": "https://i.slow.pics/Yi17a50q.webp",
+		"model_name": "2xHFA2k_LUDVAE_compact"
+	},
+	{
+		"public_url": "https://i.slow.pics/yAjRx6Mv.webp",
+		"model_name": "2xHFA2k_compact_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/8wzCorF1.webp",
+		"model_name": "2xLexicaRRDBNet"
+	},
+	{
+		"public_url": "https://i.slow.pics/ccHvnxvi.webp",
+		"model_name": "2xLexicaRRDBNet_Sharp"
+	},
+	{
+		"public_url": "https://i.slow.pics/SSNiz1zL.webp",
+		"model_name": "2xLexicaSwinIR"
+	},
+	{
+		"public_url": "https://i.slow.pics/xX3RGuPN.webp",
+		"model_name": "2xNomosUni_compact_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/UFLhSzHx.webp",
+		"model_name": "2xNomosUni_compact_multijpg_ldl"
+	},
+	{
+		"public_url": "https://i.slow.pics/OpTsWXl9.webp",
+		"model_name": "2xNomosUni_compact_otf_jpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/y6XScRKX.webp",
+		"model_name": "2xNomosUni_compact_otf_medium"
+	},
+	{
+		"public_url": "https://i.slow.pics/JF7Wo581.webp",
+		"model_name": "2xNomosUni_compact_otf_strong"
+	},
+	{
+		"public_url": "https://i.slow.pics/5UUlx9lw.webp",
+		"model_name": "2xNomosUni_compact_otf_weak"
+	},
+	{
+		"public_url": "https://i.slow.pics/QHUJoGTL.webp",
+		"model_name": "2xNomosUni_dat2_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/ilFsT2XY.webp",
+		"model_name": "2xNomosUni_esrgan_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/dDw8YANY.webp",
+		"model_name": "2xNomosUni_span_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/dxZPu1IC.webp",
+		"model_name": "2xNomosUni_span_multijpg_ldl"
+	},
+	{
+		"public_url": "https://i.slow.pics/wGgNZjvT.webp",
+		"model_name": "2xParimgCompact"
+	},
+	{
+		"public_url": "https://i.slow.pics/2nW1Xh38.webp",
+		"model_name": "4xCompactNoiseJPG80Multiscale"
+	},
+	{
+		"public_url": "https://i.slow.pics/56LxAvcG.webp",
+		"model_name": "4xFFHQDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/vPZxvquR.webp",
+		"model_name": "4xFFHQDAT_169000"
+	},
+	{
+		"public_url": "https://i.slow.pics/lbXod8AN.webp",
+		"model_name": "4xFFHQLDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/FN1brgIi.webp",
+		"model_name": "4xFFHQ_2DAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/bb9RxvAY.webp",
+		"model_name": "4xFaceUpDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/G6D4BfqY.webp",
+		"model_name": "4xFaceUpLDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/qwnt4QYX.webp",
+		"model_name": "4xFaceUpSharpDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/qYUmtxBh.webp",
+		"model_name": "4xFaceUpSharpESRGAN_net_g_80000"
+	},
+	{
+		"public_url": "https://i.slow.pics/haA28otx.webp",
+		"model_name": "4xFaceUpSharpLDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/9Oyo637G.webp",
+		"model_name": "4xHFA2k"
+	},
+	{
+		"public_url": "https://i.slow.pics/Kd5zUfU0.webp",
+		"model_name": "4xHFA2kLUDVAEDAT_light"
+	},
+	{
+		"public_url": "https://i.slow.pics/OkI2P9wQ.webp",
+		"model_name": "4xHFA2kLUDVAEGRL_small"
+	},
+	{
+		"public_url": "https://i.slow.pics/fTIvkYCY.webp",
+		"model_name": "4xHFA2kLUDVAESRFormer_light"
+	},
+	{
+		"public_url": "https://i.slow.pics/cTjXNrX8.webp",
+		"model_name": "4xHFA2kLUDVAESwinIR_light"
+	},
+	{
+		"public_url": "https://i.slow.pics/uYwnz5WU.webp",
+		"model_name": "4xLSDIR"
+	},
+	{
+		"public_url": "https://i.slow.pics/u2NKCuIl.webp",
+		"model_name": "4xLSDIRCompact"
+	},
+	{
+		"public_url": "https://i.slow.pics/DZbYG2co.webp",
+		"model_name": "4xLSDIRCompact1"
+	},
+	{
+		"public_url": "https://i.slow.pics/2h3itVzq.webp",
+		"model_name": "4xLSDIRCompact2"
+	},
+	{
+		"public_url": "https://i.slow.pics/hlqXwfX6.webp",
+		"model_name": "4xLSDIRCompact3"
+	},
+	{
+		"public_url": "https://i.slow.pics/ekNLXSdI.webp",
+		"model_name": "4xLSDIRCompactC"
+	},
+	{
+		"public_url": "https://i.slow.pics/XBxucHmG.webp",
+		"model_name": "4xLSDIRCompactC1"
+	},
+	{
+		"public_url": "https://i.slow.pics/YUKXAgmi.webp",
+		"model_name": "4xLSDIRCompactC2"
+	},
+	{
+		"public_url": "https://i.slow.pics/hVV3jgGL.webp",
+		"model_name": "4xLSDIRCompactC3"
+	},
+	{
+		"public_url": "https://i.slow.pics/3vEwkDbu.webp",
+		"model_name": "4xLSDIRCompactN3"
+	},
+	{
+		"public_url": "https://i.slow.pics/sJIyS598.webp",
+		"model_name": "4xLSDIRCompactR1"
+	},
+	{
+		"public_url": "https://i.slow.pics/MsToUqCz.webp",
+		"model_name": "4xLSDIRCompactR2"
+	},
+	{
+		"public_url": "https://i.slow.pics/SoALHTxa.webp",
+		"model_name": "4xLSDIRCompactR3"
+	},
+	{
+		"public_url": "https://i.slow.pics/Zv7Ljm5S.webp",
+		"model_name": "4xLSDIRDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/Z6d0fAD8.webp",
+		"model_name": "4xLSDIRHAT-L_net_g_50000"
+	},
+	{
+		"public_url": "https://i.slow.pics/9zyvSJyA.webp",
+		"model_name": "4xLSDIRplus"
+	},
+	{
+		"public_url": "https://i.slow.pics/BePJVywe.webp",
+		"model_name": "4xLSDIRplusC"
+	},
+	{
+		"public_url": "https://i.slow.pics/BWh1vI6d.webp",
+		"model_name": "4xLSDIRplusN"
+	},
+	{
+		"public_url": "https://i.slow.pics/NtBEsw4c.webp",
+		"model_name": "4xLSDIRplusR"
+	},
+	{
+		"public_url": "https://i.slow.pics/26tvUu6S.webp",
+		"model_name": "4xLexicaBoxNoise2"
+	},
+	{
+		"public_url": "https://i.slow.pics/PxALdFN1.webp",
+		"model_name": "4xLexicaCompactBlurJPG80Multidown"
+	},
+	{
+		"public_url": "https://i.slow.pics/DlEmKBcH.webp",
+		"model_name": "4xLexicaCompactBox"
+	},
+	{
+		"public_url": "https://i.slow.pics/ZI5qkXtO.webp",
+		"model_name": "4xLexicaCompactBoxBlur"
+	},
+	{
+		"public_url": "https://i.slow.pics/8tSINC8d.webp",
+		"model_name": "4xLexicaCompactBoxBlur2"
+	},
+	{
+		"public_url": "https://i.slow.pics/yNyocg0V.webp",
+		"model_name": "4xLexicaCompactBoxJPG80"
+	},
+	{
+		"public_url": "https://i.slow.pics/FdcwmNvp.webp",
+		"model_name": "4xLexicaCompactBoxNoise"
+	},
+	{
+		"public_url": "https://i.slow.pics/du9fBGuJ.webp",
+		"model_name": "4xLexicaCompactBoxNoiseBlur2JPG80"
+	},
+	{
+		"public_url": "https://i.slow.pics/7hjjRyHO.webp",
+		"model_name": "4xLexicaDAT2_hb"
+	},
+	{
+		"public_url": "https://i.slow.pics/dw0FyhIE.webp",
+		"model_name": "4xLexicaDAT2_net_g_62500"
+	},
+	{
+		"public_url": "https://i.slow.pics/YaysxKP1.webp",
+		"model_name": "4xLexicaDAT2_otf"
+	},
+	{
+		"public_url": "https://i.slow.pics/gPEixRzv.webp",
+		"model_name": "4xLexicaHAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/rBH3bbtY.webp",
+		"model_name": "4xNomos8kDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/RQuaGaBT.webp",
+		"model_name": "4xNomos8kHAT-L_bokeh_jpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/wcohleGz.webp",
+		"model_name": "4xNomos8kHAT-L_otf"
+	},
+	{
+		"public_url": "https://i.slow.pics/NhNLF4bI.webp",
+		"model_name": "4xNomos8kSC"
+	},
+	{
+		"public_url": "https://i.slow.pics/2HA4WOQA.webp",
+		"model_name": "4xNomos8kSCHAT-L"
+	},
+	{
+		"public_url": "https://i.slow.pics/Xl1zHyUZ.webp",
+		"model_name": "4xNomos8kSCHAT-S"
+	},
+	{
+		"public_url": "https://i.slow.pics/4E8Ly6XM.webp",
+		"model_name": "4xNomos8kSCSRFormer"
+	},
+	{
+		"public_url": "https://i.slow.pics/LE7mfEd9.webp",
+		"model_name": "4xNomos8k_span_otf_medium"
+	},
+	{
+		"public_url": "https://i.slow.pics/UqYBLqiZ.webp",
+		"model_name": "4xNomos8k_span_otf_strong"
+	},
+	{
+		"public_url": "https://i.slow.pics/Js1VF3KO.webp",
+		"model_name": "4xNomos8k_span_otf_weak"
+	},
+	{
+		"public_url": "https://i.slow.pics/eS8MV07g.webp",
+		"model_name": "4xNomosUniDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/c36iPxAg.webp",
+		"model_name": "4xNomosUniDAT2_box"
+	},
+	{
+		"public_url": "https://i.slow.pics/x7wBzHru.webp",
+		"model_name": "4xNomosUniDAT2_boxhb_net_g_80000"
+	},
+	{
+		"public_url": "https://i.slow.pics/n0dVR5hI.webp",
+		"model_name": "4xNomosUniDAT2_multijpg_ldl"
+	},
+	{
+		"public_url": "https://i.slow.pics/b6hAqpH1.webp",
+		"model_name": "4xNomosUniDAT2_multijpg_ldl_sharp"
+	},
+	{
+		"public_url": "https://i.slow.pics/mZqX6yUY.webp",
+		"model_name": "4xNomosUniDAT2_otf_net_g_45000"
+	},
+	{
+		"public_url": "https://i.slow.pics/QOgofsQp.webp",
+		"model_name": "4xNomosUniDAT_bokeh_jpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/GPEoZV0E.webp",
+		"model_name": "4xNomosUniDAT_otf"
+	},
+	{
+		"public_url": "https://i.slow.pics/3TKVNYwt.webp",
+		"model_name": "4xNomosUniHAT-L_bokeh_jpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/gRRjzoTS.webp",
+		"model_name": "4xNomosUni_dat2_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/jwAsNKPS.png",
+		"model_name": "4xNomosUni_rgt_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/SyZknIJE.webp",
+		"model_name": "4xNomosUni_rgt_s_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/1vwoHUYm.webp",
+		"model_name": "4xNomosUni_span_multijpg"
+	},
+	{
+		"public_url": "https://i.slow.pics/WlWwnpSQ.webp",
+		"model_name": "4xReal_SSDIR_DAT_GAN"
+	},
+	{
+		"public_url": "https://i.slow.pics/jeM6FU2h.webp",
+		"model_name": "4xSSDIRDAT"
+	},
+	{
+		"public_url": "https://i.slow.pics/DqvjBuSA.webp",
+		"model_name": "4xTextureDAT2_otf"
+	}
 ]
