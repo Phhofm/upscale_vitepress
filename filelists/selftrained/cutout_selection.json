@@ -14,5 +14,25 @@
     {
         "public_url": "https://i.slow.pics/LXHIwloe.webp",
         "model_name": "1x2xNomosUni_compact_otf_medium"
-    }
+    },
+    {
+        "public_url": "https://i.slow.pics/IfbLYGWd.webp",
+        "model_name": "4xNomosUniDAT2_multijpg_ldl"
+      },
+      {
+        "public_url": "https://i.slow.pics/rNKBlCps.webp",
+        "model_name": "4xNomosUniDAT2_multijpg_ldl_sharp"
+      },
+      {
+        "public_url": "https://i.slow.pics/33W4Peqw.webp",
+        "model_name": "4xNomosUni_dat2_multijpg"
+      },
+      {
+        "public_url": "https://i.slow.pics/94ZwyEa8.webp",
+        "model_name": "4xNomosUni_rgt_s_multijpg"
+      },
+      {
+        "public_url": "https://i.slow.pics/pze1sWLO.png",
+        "model_name": "4xNomosUni_rgt_multijpg"
+      }
 ]
