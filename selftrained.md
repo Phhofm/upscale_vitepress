@@ -107,7 +107,7 @@ For 2x, I recommend checking out the 2xNomosUni_dat_multijpg model output. One c
 A digital art example (cropped to interesting section, 256x256).   
 
 For 4x, I recommend checking out the [4xNomosUniDAT2_box](https://openmodeldb.info/models/4x-NomosUniDAT2-box) model output.  
-And for a softer touch, the [4xLSDIRDAT](https://openmodeldb.info/models/4x-LSDIRDAT) model output.    
+And for a softer touch, the [4xLSDIRDAT](https://openmodeldb.info/models/4x-LSDIRDAT) model output (or one of my newest, 4xNomosUni_rgt_multijpg).    
 
 For 2x, I recommend checking out the 2xNomosUni_dat_multijpg output.  
 

@@ -74,5 +74,25 @@
   {
     "public_url": "https://i.slow.pics/5V4H2fUk.webp",
     "model_name": "4xSSDIRDAT"
+  },
+  {
+    "public_url": "https://i.slow.pics/api3CoK2.webp",
+    "model_name": "4xNomosUni_dat2_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/9fQX5GqO.webp",
+    "model_name": "4xNomosUniDAT2_multijpg_ldl"
+  },
+  {
+    "public_url": "https://i.slow.pics/PUxe0tyE.webp",
+    "model_name": "4xNomosUniDAT2_multijpg_ldl_sharp"
+  },
+  {
+    "public_url": "https://i.slow.pics/d1xsoQPt.png",
+    "model_name": "4xNomosUni_rgt_multijpg"
+  },
+  {
+    "public_url": "https://i.slow.pics/M8wMGwuy.webp",
+    "model_name": "4xNomosUni_rgt_s_multijpg"
   }
 ]
