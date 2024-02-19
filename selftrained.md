@@ -118,8 +118,6 @@ For 2x, I recommend checking out the 2xNomosUni_dat_multijpg output.
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/><br/><br/>
 
-
-
 #### aniscreen
 
 A anime frame example (cropped to interesting section, 256x256)   
@@ -137,10 +135,29 @@ For 2x it would be [2xHFA2kCompact](https://openmodeldb.info/models/2x-HFA2kComp
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/><br/><br/>
 
+#### 2dcutout
+
+A 2D Game Art Style example: Cutout art (cropped to interesting section, 256x256)   
+
+What we can look out for here is for example how well the lines on the red shirt of that guy to the right are preserved / still visible on the output.   
+Or the lines on the light/cut part of that right wooden stake on the left side.   
+
+4x models that did fairly well are 4xNomosUniDAT2_box, 4xNomos8kHAT-L_bokeh_jpg, 4xNomosUniDAT_bokeh_jpg and 4xNomosUni_dat2_multijpg.   
+
+2x model that did well is 2xNomosUni_dat2_multijpg.   
+
+
+<div id="cutout_selection">
+<ImageSlider :key="componentKey" inputImageURL='https://i.slow.pics/qVdCBgNA.png' :fileNamesList="cutoutfiles_selection"/>
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('cutout_selection')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
+
 
 
 ### Unfiltered Results
-This Section contains the full examples, meaning all outputs (113), from worst to acceptable to best, but Ill let you decide. This page, after all, is for you to get an impression on the outputs of models in comparison between each other.
+This Section contains the full examples, meaning all outputs (113). This page, after all, is for you to get an impression on the outputs of models in comparison between each other.
 <br/>
 
 #### car
