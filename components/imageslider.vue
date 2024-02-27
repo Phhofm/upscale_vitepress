@@ -10,7 +10,7 @@
       </el-select>
     </div>
   
-    <image-compare :before="before" :after="after" isZoomable :key="componentKey" :zoom="zoom"
+    <image-compare :before="before" :after="after" isZoomable isDraggable :key="componentKey" :zoom="zoom"
       @wheel.prevent @touchmove.prevent @scroll.prevent />
   </template>
   
